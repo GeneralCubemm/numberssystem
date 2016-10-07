@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SYS-LICZBOWE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- bxSlider file -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+<section class="n-sys generalcube">
+    <div class="col-sm-4 col-sm-offset-4">
+        <div class="sys-widget">
+            <div class="sys-inputs">
+                <p>Przeliczanie z systemu:</p>
+                <input type="text" class="infoclass-1" name="resul[]"  placeholder="Podaj system..." required>
+                <p>Na system:</p>
+                <input type="text" class="infoclass-2" name="resul[]" placeholder="Podaj system..." required>
+                <p>Liczba do przeliczenia:</p>
+                <input type="text" class="infoclass-3" name="resul[]" placeholder="Podaj liczbę..." required>
+                <div id="tooltip-bg" class="tooltip-bg"></div>
+                <button class="button" id="startCalc">Przelicz</button>
+                <p>Wynik:</p>
+                <input type="text" id="final-sulution">
+            </div>
+        </div>
+    </div>
+</section>
+  <p>
+słownik dostępnych wyrazów, systemu bazowego i docelowego, jeżeli nie używamy wyrazów ze słownika, należy podać liczbę Naturalną jako wartość systemu z którego i do którego przeliczamy.
+  </p>
+  <p>
+    "szesnastkowy" -> 16
+  </p>
+  <p>
+    "dziesiętny" -> 10
+  </p>
+  <p>
+    "binarny" -> 2
+  </p> 
+<script src="js/main.js"></script>  
+</body>
+</html>
