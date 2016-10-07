@@ -41,7 +41,7 @@ function isNaturalNumber ( stringToTest ) {
 function convertBase(value, from_number_system, to_number_system) {
     
   var new_value = '';
-  var charsetArea = '0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz+/';
+  var charsetArea = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz+/';
   var slitRange = charsetArea.split('');
   var from_range = charsetArea.slice(0, from_number_system);
   var to_range = charsetArea.slice(0, to_number_system);
